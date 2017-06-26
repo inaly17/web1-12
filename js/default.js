@@ -26,7 +26,6 @@ for(var i=1;i<word;i++)
   {
     message='i';
   }
-  
   document.getElementById('choice').textContent =message;
 }
     
