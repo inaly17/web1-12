@@ -10,7 +10,6 @@ window.alert(document.getElementById('form').word.value);
 var message;
 for(var i=1;i<100;i++)
 {
-  var li=document.createElement('li');
   if(i%3==0)
   {
     message='Fizz';
@@ -27,7 +26,7 @@ for(var i=1;i<100;i++)
   {
     message=i;
   }
-li.textContent =message;
+  li.textContent =message;
 }
     
   
