@@ -28,6 +28,7 @@ for(var i=1;i<word;i++)
   }
   
   document.getElementById('choice').textContent =message;
+}
     
   
 
