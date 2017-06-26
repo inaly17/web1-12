@@ -25,7 +25,7 @@ for(var i=1;i<100;i++)
   }
   else
   {
-    message='i';
+    message=i;
   }
   document.getElementById('choice').textContent =message;
 }
