@@ -1,5 +1,5 @@
 var li=document.createElement('li');
-li.textContetnt='アイテム';
+li.textContent='アイテム';
 document.getElementById('list').appendChild(li);
 
 docmuent.getElementById('form').onsubmit=function()
