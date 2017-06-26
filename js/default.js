@@ -7,9 +7,7 @@ document.getElementById('form').onsubmit=function()
 window.alert(document.getElementById('form').word.value);
 };
 
-var word=function();
-
-for(var i=1;i<word;i++)
+for(var i=1;i<function();i++)
 {
   var li=document.createElement('li');
   if(i%3==0)
