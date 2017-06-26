@@ -10,23 +10,25 @@ window.alert(document.getElementById('form').word.value);
 var message;
 for(var i=1;i<100;i++)
 {
-  if(i%3==0)
+  li.textContent=i;
+  
+  if(i%3==0&&i%5==0)
   {
-    message='Fizz';
+    message='Fizz Buzz';
+    li.textContent =message;
   }
   else if(i%5==0)
   {
     message='Buzz';
+    li.textContent =message;
   }
-  else if(i%3==0&&i%5==0)
+  else if(i%3==0)
   {
-    message='Fizz Buzz';
+    message='Fizz';
+    li.textContent =message;
   }
-  else
-  {
-    message=i;
-  }
-  li.textContent =message;
+
+  
 }
     
   
